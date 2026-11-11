@@ -1,4 +1,4 @@
-import Background from "./components/Background";
+import Background from "./components/PageContent/Background";
 import PrimaryFooter from "./components/Footers/PrimaryFooter";
 import routeHelpers from "./utils/appHelpers/routerHelpers";
 import PrimaryHeader from "./components/Headers/PrimaryHeader";
