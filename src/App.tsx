@@ -1,24 +1,21 @@
 import Background from "./components/Background";
-import HomeContainer from "./containers/HomeContainer";
 import Navbar from "./components/Navbar";
-import AboutContainer from "./containers/AboutContainer";
-import ExperienceContainer from "./containers/ExperienceContainer";
-import SkillsContainer from "./containers/SkillsContainer";
-import ContactContainer from "./containers/ContactContainer";
 import Footer from "./components/Footer";
+import routeHelpers from "./utils/appHelpers/routerHelpers";
 
 const App = () => {
+  const routes = routeHelpers();
+
   return (
     <>
       <Background />
       <Navbar />
 
       <main className="relative z-10">
-        <HomeContainer />
-        <AboutContainer />
-        <ExperienceContainer />
-        <SkillsContainer />
-        <ContactContainer />
+        {routes.map((route) => {
+          const Component = route.component;
+          return <Component key={route.path} />;
+        })}
       </main>
 
       <Footer />
