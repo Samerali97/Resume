@@ -2,32 +2,30 @@ import type { SkillCategory } from "../../../types/skill.types";
 import Card from "../../UI/Card";
 
 interface SkillCardProps {
-    category: SkillCategory;
+  category: SkillCategory;
 }
 
 const SkillCard = ({ category }: SkillCardProps) => {
-    return (
-        <Card className="h-full transition-colors duration-200 hover:border-primary/50">
-            <h3 className="text-lg font-semibold text-text">
-                {category.title}
-            </h3>
+  return (
+    <Card className="hover:border-primary/50 h-full transition-colors duration-200">
+      <h3 className="text-text text-lg font-semibold">{category.title}</h3>
 
-            <p className="mt-2 text-sm leading-6 text-muted">
-                {category.description}
-            </p>
+      <p className="text-muted mt-2 text-sm leading-6">
+        {category.description}
+      </p>
 
-            <div className="mt-6 flex flex-wrap gap-2">
-                {category.skills.map((skill) => (
-                    <span
-                        key={skill}
-                        className="rounded-lg border border-border bg-background px-3 py-2 text-sm font-medium text-muted transition-colors hover:border-primary/50 hover:text-text"
-                    >
-                        {skill}
-                    </span>
-                ))}
-            </div>
-        </Card>
-    );
+      <div className="mt-6 flex flex-wrap gap-2">
+        {category.skills.map((skill) => (
+          <span
+            key={skill}
+            className="border-border bg-background text-muted hover:border-primary/50 hover:text-text rounded-lg border px-3 py-2 text-sm font-medium transition-colors"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
+    </Card>
+  );
 };
 
 export default SkillCard;

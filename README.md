@@ -1,4 +1,3 @@
-
 # Samer Ali | Developer Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-2ea44f?style=for-the-badge)](https://samerali97.github.io/Resume/)
@@ -65,13 +64,11 @@ npm run dev
 
 Open the local URL provided by Vite in your browser.
 
-
 ## Deployment
 
 This project is deployed using **GitHub Pages** with GitHub Actions.
 
 The deployment workflow automatically builds and publishes the application when changes are pushed to the `main` branch.
-
 
 ## Author
 
