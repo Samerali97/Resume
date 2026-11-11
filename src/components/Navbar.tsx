@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a
                             key={link.href}
                             href={link.href}
-                            className="text-sm font-medium text-muted transition-colors duration-200 hover:text-primary"
+                            className="text-sm font-medium text-muted transition-colors duration-200 hover:text-primary focus-visible:text-primary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
                         >
                             {link.label}
                         </a>
