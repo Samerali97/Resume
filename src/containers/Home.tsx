@@ -1,6 +1,6 @@
 
 import { motion, useReducedMotion } from "motion/react";
-import Container from "../components/Container";
+import Container from "../components/PageContent/Container";
 
 const HomeContainer = () => {
     const shouldReduceMotion = useReducedMotion();

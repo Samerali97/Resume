@@ -1,9 +1,9 @@
 
 import { Code2, Layers3, Gauge, Users } from "lucide-react";
-import Container from "../components/Container";
+import Container from "../components/PageContent/Container";
 import Card from "../components/UI/Card";
 import SectionHeading from "../components/Headers/SectionHeading";
-import Reveal from "../components/Reveal";
+import Reveal from "../components/Animations/Reveal";
 
 const focusAreas = [
     {

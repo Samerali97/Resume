@@ -1,8 +1,8 @@
-import Container from "../components/Container";
+import Container from "../components/PageContent/Container";
 import SectionHeading from "../components/Headers/SectionHeading";
 import ExperienceCard from "../components/PageContent/ExperiencePage/ExperienceCard";
 import { experience } from "../data/experience";
-import Reveal from "../components/Reveal";
+import Reveal from "../components/Animations/Reveal";
 
 const ExperienceContainer = () => {
     return (

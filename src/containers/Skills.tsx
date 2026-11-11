@@ -1,8 +1,8 @@
-import Container from "../components/Container";
+import Container from "../components/PageContent/Container";
 import SectionHeading from "../components/Headers/SectionHeading";
 import SkillCard from "../components/PageContent/SkillPage/SkillCard";
 import { skillCategories } from "../data/skills";
-import Reveal from "../components/Reveal";
+import Reveal from "../components/Animations/Reveal";
 
 const SkillsContainer = () => {
     return (
