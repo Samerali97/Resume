@@ -1,73 +1,83 @@
-# React + TypeScript + Vite
-//test
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Samer Ali | Developer Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-2ea44f?style=for-the-badge)](https://samerali97.github.io/Resume/)
 
-## React Compiler
+A personal developer portfolio built with React, showcasing my professional experience, technical skills, and selected projects.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the ESLint configuration
+This portfolio serves as a central place to explore my background as a Software Engineer, including my experience building modern web applications and reusable frontend solutions.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Designed with a focus on clean UI, responsive layouts, maintainable components, and subtle animations.
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **React** – Component-based UI development
+- **JavaScript** – Application logic and functionality
+- **Tailwind CSS** – Utility-first styling and responsive design
+- **Framer Motion** – Animations and transitions
+- **Vite** – Development server and production builds
+- **Lucide React** – Icon library
+- **GitHub Pages** – Website hosting and deployment
+- **GitHub Actions** – Automated deployment workflow
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+## Features
+
+- Responsive design for desktop, tablet, and mobile
+- Reusable React components
+- Modern UI with a consistent design system
+- Animated UI elements and transitions
+- Professional experience and technical skills sections
+- Project showcase
+- Downloadable resume
+- Automated deployment through GitHub Actions
+
+## Getting Started
+
+To run the project locally:
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Samerali97/Resume
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+cd Resume
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+
+## Deployment
+
+This project is deployed using **GitHub Pages** with GitHub Actions.
+
+The deployment workflow automatically builds and publishes the application when changes are pushed to the `main` branch.
+
+
+## Author
+
+**Samer Ali**
+
+Software Engineer | React | JavaScript | Frontend Development
+
+- GitHub: [Your GitHub Profile](YOUR_GITHUB_PROFILE_URL)
+- LinkedIn: [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
