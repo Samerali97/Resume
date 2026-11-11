@@ -1,45 +1,45 @@
 .ambient-background {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    overflow: hidden;
-    pointer-events: none;
-    background: #0B0F19;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  background: #0b0f19;
 }
 
 .ambient-background::before {
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    top: -200px;
-    left: -100px;
-    border-radius: 50%;
-    background: #3B82F6;
-    opacity: 0.12;
-    filter: blur(120px);
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -200px;
+  left: -100px;
+  border-radius: 50%;
+  background: #3b82f6;
+  opacity: 0.12;
+  filter: blur(120px);
 }
 
 .ambient-background::after {
-    content: "";
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    top: 200px;
-    right: -150px;
-    border-radius: 50%;
-    background: #8B5CF6;
-    opacity: 0.12;
-    filter: blur(120px);
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 200px;
+  right: -150px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  opacity: 0.12;
+  filter: blur(120px);
 }
 
 .stars {
-    position: absolute;
-    inset: 0;
-    background-image:
-        radial-gradient(1px 1px at 20% 30%, white 99%, transparent),
-        radial-gradient(1px 1px at 70% 60%, white 99%, transparent),
-        radial-gradient(2px 2px at 40% 80%, white 99%, transparent);
-    background-size: 250px 250px;
-    opacity: 0.3;
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, white 99%, transparent),
+    radial-gradient(1px 1px at 70% 60%, white 99%, transparent),
+    radial-gradient(2px 2px at 40% 80%, white 99%, transparent);
+  background-size: 250px 250px;
+  opacity: 0.3;
 }
