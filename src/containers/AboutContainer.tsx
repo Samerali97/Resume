@@ -33,7 +33,7 @@ const focusAreas = [
 
 const AboutContainer = () => {
     return (
-        <section id="about" className="py-5">
+        <section id="about" className="py-24">
             <Container>
                 <SectionHeading
                     eyebrow="About Me"

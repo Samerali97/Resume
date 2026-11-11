@@ -2,6 +2,7 @@ import Background from "./components/Background";
 import HomeContainer from "./containers/HomeContainer";
 import Navbar from "./components/Navbar";
 import AboutContainer from "./containers/AboutContainer";
+import ExperienceContainer from "./containers/ExperienceContainer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <HomeContainer />
         <AboutContainer />
+        <ExperienceContainer />
       </main>
     </>
   );
