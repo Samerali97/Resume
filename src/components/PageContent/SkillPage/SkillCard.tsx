@@ -1,5 +1,5 @@
-import type { SkillCategory } from "../types/skill.types";
-import Card from "./Card";
+import type { SkillCategory } from "../../../types/skill.types";
+import Card from "../../UI/Card";
 
 interface SkillCardProps {
     category: SkillCategory;

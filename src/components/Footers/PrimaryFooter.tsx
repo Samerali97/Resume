@@ -1,4 +1,4 @@
-const Footer = () => {
+const PrimaryFooter = () => {
     return (
         <footer className="relative z-10 border-t border-border/60 py-8">
             <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 text-sm text-muted sm:flex-row sm:px-8">
@@ -17,4 +17,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default PrimaryFooter;

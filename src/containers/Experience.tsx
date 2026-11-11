@@ -1,6 +1,6 @@
 import Container from "../components/Container";
-import SectionHeading from "../components/SectionHeading";
-import ExperienceCard from "../components/ExperienceCard";
+import SectionHeading from "../components/Headers/SectionHeading";
+import ExperienceCard from "../components/PageContent/ExperiencePage/ExperienceCard";
 import { experience } from "../data/experience";
 import Reveal from "../components/Reveal";
 

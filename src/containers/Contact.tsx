@@ -1,8 +1,8 @@
 import { Mail, ArrowUpRight } from "lucide-react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Container from "../components/Container";
-import SectionHeading from "../components/SectionHeading";
-import Card from "../components/Card";
+import SectionHeading from "../components/Headers/SectionHeading";
+import Card from "../components/UI/Card";
 import Reveal from "../components/Reveal";
 
 const contactLinks = [

@@ -10,7 +10,7 @@ const navigationLinks = [
     { label: "Contact", href: "#contact" },
 ];
 
-const Navbar = () => {
+const PrimaryHeader = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const handleLinkClick = () => {
@@ -82,4 +82,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default PrimaryHeader;

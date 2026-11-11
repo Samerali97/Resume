@@ -1,6 +1,6 @@
 import Container from "../components/Container";
-import SectionHeading from "../components/SectionHeading";
-import SkillCard from "../components/SkillCard";
+import SectionHeading from "../components/Headers/SectionHeading";
+import SkillCard from "../components/PageContent/SkillPage/SkillCard";
 import { skillCategories } from "../data/skills";
 import Reveal from "../components/Reveal";
 

@@ -1,16 +1,16 @@
-import HomeContainer from "../../containers/HomeContainer";
-import AboutContainer from "../../containers/AboutContainer";
-import ExperienceContainer from "../../containers/ExperienceContainer";
-import SkillsContainer from "../../containers/SkillsContainer";
-import ContactContainer from "../../containers/ContactContainer";
+import Home from "../../containers/Home";
+import About from "../../containers/About";
+import Experience from "../../containers/Experience";
+import Skills from "../../containers/Skills";
+import Contact from "../../containers/Contact";
 
 const routeHelpers = () => {
     const routes = [
-        { path: "/", component: HomeContainer },
-        { path: "/about", component: AboutContainer },
-        { path: "/experience", component: ExperienceContainer },
-        { path: "/skills", component: SkillsContainer },
-        { path: "/contact", component: ContactContainer }
+        { path: "/", component: Home },
+        { path: "/about", component: About },
+        { path: "/experience", component: Experience },
+        { path: "/skills", component: Skills },
+        { path: "/contact", component: Contact }
     ];
 
     return routes;

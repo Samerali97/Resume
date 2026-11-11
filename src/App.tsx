@@ -1,7 +1,7 @@
 import Background from "./components/Background";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import PrimaryFooter from "./components/Footers/PrimaryFooter";
 import routeHelpers from "./utils/appHelpers/routerHelpers";
+import PrimaryHeader from "./components/Headers/PrimaryHeader";
 
 const App = () => {
   const routes = routeHelpers();
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Background />
-      <Navbar />
+      <PrimaryHeader />
 
       <main className="relative z-10">
         {routes.map((route) => {
@@ -18,7 +18,7 @@ const App = () => {
         })}
       </main>
 
-      <Footer />
+      <PrimaryFooter />
     </>
   );
 };

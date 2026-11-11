@@ -1,5 +1,5 @@
-import type { Experience } from "../types/experience.types";
-import Card from "./Card";
+import type { Experience } from "../../../types/experience.types";
+import Card from "../../UI/Card";
 
 interface ExperienceCardProps {
     experience: Experience;
